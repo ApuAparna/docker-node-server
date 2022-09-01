@@ -5,7 +5,7 @@ phases:
        - sudo apt-get update
        - sudo apt-get install docker.io -y
        - sudo systemctl enable docker.service    
-       - sudo systemctl start docker.service
+   
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
