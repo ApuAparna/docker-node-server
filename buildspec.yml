@@ -1,8 +1,9 @@
 version: 0.2
 phases:
   install:
-    runtime-versions:
-      docker: latest
+     commands:
+       - sudo apt-get update
+       - sudo apt-get docker.io    
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
