@@ -3,7 +3,7 @@ phases:
   install:
      commands:
        - sudo apt-get update
-       - sudo apt-get install ddocker push 719658110167.dkr.ecr.ap-southeast-1.amazonaws.com/ak2-ecr:latestocker.io -y
+       - sudo apt-get install docker.io -y
        - sudo systemctl enable docker.service    
    
   pre_build:
