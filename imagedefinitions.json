@@ -1,6 +1,6 @@
 [
     {
         "name": "ak2-container",
-        "imageUri": "719658110167.dkr.ecr.ap-south-1.amazonaws.com/deploy:latest"
+        "imageUri": "719658110167.dkr.ecr.ap-south-1.amazonaws.com/final:ee31e8d"
     }
 ]
